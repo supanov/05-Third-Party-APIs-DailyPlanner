@@ -1,0 +1,15 @@
+1. create time blocks HTML 
+    - we need a save button
+    - a description area 
+    - they need to be rows
+
+2. Fix Styling =
+
+3. Script 
+    - Need a function to get current date, time using moment.js
+    -need current date 
+    - get the date to show up -google
+
+    -need to save data + delete data 
+    -save to local storage 
+    

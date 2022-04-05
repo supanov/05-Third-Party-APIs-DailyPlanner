@@ -11,7 +11,7 @@
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
     integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous" />
   <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="./assets/style.css" />
   <title>Work Day Scheduler</title>
 </head>
 
@@ -19,74 +19,74 @@
   <header class="jumbotron">
     <h1 class="display-3">Work Day Scheduler</h1>
     <p class="lead">A simple calendar app for scheduling your work day</p>
+<!-- Making a variable with currentDay -->
     <p id="currentDay" class="lead"></p>
   </header>
   <div class="container">
     <!-- Timeblocks go here -->
     <!-- Added bootstrap in the div classes -->
- 
+ <!-- added id's with textarea data-id to save to local file later -->
 
     <div class="row">
       <div class="hour col-md-2">9AM</div>
-      <textarea class="description col-md-8"></textarea>
-      <button class="saveBtn col-md-2"> </button>
+      <textarea id="9am" class="description col-md-8"></textarea>
+      <button data-id = "9am" class="saveBtn col-md-2">Save</button>
     </div>
 
     <div class="row">
       <div class="hour col-md-2">10AM</div>
-      <textarea class="description col-md-8"></textarea>
-      <button class="saveBtn col-md-2"> </button>
+      <textarea id="10am" class="description col-md-8"></textarea>
+      <button data-id = "10am" class="saveBtn col-md-2">Save</button>
     </div>
 
     <div class="row">
       <div class="hour col-md-2">11AM</div>
-      <textarea class="description col-md-8"></textarea>
-      <button class="saveBtn col-md-2"> </button>
+      <textarea id="11am" class="description col-md-8"></textarea>
+      <button data-id = "11am" class="saveBtn col-md-2">Save</button>
     </div>
 
     <div class="row">
       <div class="hour col-md-2 ">12PM</div>
-      <textarea class="description col-md-8"></textarea>
-      <button class="saveBtn col-md-2" > </button>
+      <textarea id="12pm" class="description col-md-8"></textarea>
+      <button data-id = "12am" class="saveBtn col-md-2" >Save</button>
     </div>
 
     <div class="row">
       <div class="hour col-md-2">1PM</div>
-      <textarea class="description col-md-8"></textarea>
-      <button class="saveBtn col-md-2"> </button>
+      <textarea id="1pm" class="description col-md-8"></textarea>
+      <button data-id = "1pm" class="saveBtn col-md-2">Save</button>
     </div>
 
     <div class="row">
       <div class="hour col-md-2 ">2PM</div>
-      <textarea class="description col-md-8"></textarea>
-      <button class="saveBtn col-md-2"> </button>
+      <textarea id="2pm" class="description col-md-8"></textarea>
+      <button data-id = "2pm" class="saveBtn col-md-2">Save</button>
     </div>
 
     <div class="row">
-      <div class="hour col-md-2">3M</div>
-      <textarea class="description col-md-8"></textarea>
-      <button class="saveBtn col-md-2"> </button>
+      <div class="hour col-md-2">3PM</div>
+      <textarea id="3pm" class="description col-md-8"></textarea>
+      <button data-id = "3pm" class="saveBtn col-md-2">Save</button>
     </div>
 
     <div class="row">
-      <div class="hour col-md-2">4AM</div>
-      <textarea class="description col-md-8"></textarea>
-      <button class="saveBtn col-md-2"> </button>
+      <div class="hour col-md-2">4PM</div>
+      <textarea id="4pm" class="description col-md-8"></textarea>
+      <button data-id = "4pm" class="saveBtn col-md-2">Save</button>
     </div>
 
     <div class="row">
-      <div class="hour col-md-2">5AM</div>
-      <textarea class="description col-md-8"></textarea>
-      <button class="saveBtn col-md-2"> </button>
+      <div class="hour col-md-2">5PM</div>
+      <textarea id="5pm" class="description col-md-8"></textarea>
+      <button data-id = "5pm" class="saveBtn col-md-2">Save</button>
     </div>
 
   </div>
 
 
-
-
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+  <script src="./assets/script.js"></script>
 </body>
 
 </html>
